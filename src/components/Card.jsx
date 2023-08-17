@@ -1,8 +1,9 @@
-import React from 'react'
 
-const Card = () => {
+const Card = ({usuarionombre, animalfavorito}) => {
 return (
-    <div>Hola soy una tarjeta</div>
+    <div>
+        <h4>El animal favorito de {usuarionombre} es {animalfavorito} </h4>
+    </div>
 )
 }
 
